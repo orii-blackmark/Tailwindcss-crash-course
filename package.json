@@ -1,15 +1,23 @@
 {
-  "name": "ninjafood",
+  "name": "tailwind-tutorial",
   "version": "1.0.0",
+  "description": "First tutorial.",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i ./src/styles.css -o ./public/styles.css"
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orii-blackmark/Tailwindcss-crash-course.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/orii-blackmark/Tailwindcss-crash-course/issues"
+  },
+  "homepage": "https://github.com/orii-blackmark/Tailwindcss-crash-course#readme",
   "dependencies": {
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^1.4.6"
   }
 }
